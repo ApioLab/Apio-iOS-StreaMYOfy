@@ -31,7 +31,7 @@
 @property int fistCounter;
 
 //@property float startingPoint;
-
+//Prova
 
 
 @property (weak, nonatomic) IBOutlet UILabel *helloLabel;
