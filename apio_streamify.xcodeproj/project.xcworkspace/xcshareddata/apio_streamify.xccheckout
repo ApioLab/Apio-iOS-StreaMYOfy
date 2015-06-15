@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>77CE5B77-F19F-4E26-9B86-0B25258529D5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>143891E04B568F6F5A34CF2C00631190C72A7E6B</key>
+		<string>https://github.com/AleChelli/Apio-iOS-Streamyofy.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>apio_streamify.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>143891E04B568F6F5A34CF2C00631190C72A7E6B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AleChelli/Apio-iOS-Streamyofy.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>143891E04B568F6F5A34CF2C00631190C72A7E6B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>143891E04B568F6F5A34CF2C00631190C72A7E6B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Apio-iOS-Streamyofy</string>
+		</dict>
+	</array>
+</dict>
+</plist>
