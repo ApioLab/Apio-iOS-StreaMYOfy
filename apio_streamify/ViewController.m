@@ -58,7 +58,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.fistCounter = 0;
-    //ipAddress=@"192.168.1.18";
+    //ipAddress=@"192.168.10.121";
     self.shouldNotifyInBackground = YES;
     // Data notifications are received through NSNotificationCenter.
     // Posted whenever a TLMMyo connects
@@ -117,7 +117,7 @@
     self.ui_trackInfoArtist.text = @"-";
     self.ui_trackInfoTitle.text = @"-";
     
-    self.aios = [[ApioIOSocket alloc] initWithHost:@"http://192.168.1.18" andPort:@"8083"];
+    self.aios = [[ApioIOSocket alloc] initWithHost:@"http://192.168.10.121" andPort:@"8083"];
     self.aios.delegate = self;
     
     NSError *audioError = nil;
@@ -661,7 +661,7 @@
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dict options:0 error:&error];
     
     HTTPClient *client = [[HTTPClient alloc] init];
-    NSString *payload = @"http://192.168.1.18:8083/apio/updateListElements";
+    NSString *payload = @"http://192.168.10.121:8083/apio/updateListElements";
     NSURL *url = [NSURL URLWithString: payload];
     client.postData = jsonData;
     [client connect:url
@@ -684,7 +684,7 @@
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dict options:0 error:&error];
     
     HTTPClient *client = [[HTTPClient alloc] init];
-    NSString *payload = @"http://192.168.1.18:8083/apio/notify";
+    NSString *payload = @"http://192.168.10.121:8083/apio/notify";
     NSURL *url = [NSURL URLWithString: payload];
     client.postData = jsonData;
     [client connect:url
